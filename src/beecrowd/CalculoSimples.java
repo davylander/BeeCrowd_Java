@@ -24,18 +24,6 @@ public class CalculoSimples {
 		
 		System.out.printf("VALOR A PAGAR: R$ %.2f\n", valor);
 		
-		/*
-		for(int i=0; i<arrayValores1.length; i++) {
-			System.out.print(" " + arrayValores1[i] + "");
-	
-		}
-		
-		System.out.println();
-		
-		for(int i=0; i<arrayValores2.length; i++) {
-			System.out.print(" " + arrayValores2[i] + " ");
-		}
-		*/
 	}
 
 }
