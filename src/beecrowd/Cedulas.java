@@ -36,22 +36,15 @@ public class Cedulas {
 		int n5 = r10 / 5;
 		int n2 = r5 / 2;
 		int n1 = r2 / 1;
-		
-		System.out.println(r100);
-		System.out.println(r50);
-		System.out.println(r20);
-		System.out.println(r10);
-		System.out.println(r5);
-		System.out.println(r2);
-		System.out.println(r1);
-		System.out.println("_______________________________");
-		System.out.println(n100);
-		System.out.println(n50);
-		System.out.println(n20);
-		System.out.println(n10);
-		System.out.println(n5);
-		System.out.println(n2);
-		System.out.println(n1);
+
+		System.out.println(n);
+		System.out.println(n100 + " nota(s) de R$ 100,00");
+		System.out.println(n50 + " nota(s) de R$ 50,00");
+		System.out.println(n20 + " nota(s) de R$ 20,00");
+		System.out.println(n10 + " nota(s) de R$ 10,00");
+		System.out.println(n5 + " nota(s) de R$ 5,00");
+		System.out.println(n2 + " nota(s) de R$ 2,00");
+		System.out.println(n1 + " nota(s) de R$ 1,00");
 		
 		
 	}
