@@ -8,13 +8,13 @@ package beecrowd;
 
 import java.util.Scanner;
 
-public class IdadeEmDias {
-	
 /*
  * @version 1.0
  * @author Davi Souto Neri - BeeCrowd
 */
 
+public class IdadeEmDias {
+	
 	public static void main(String[] args) {
 		
 		/*
