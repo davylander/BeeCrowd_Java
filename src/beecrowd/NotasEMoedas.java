@@ -6,6 +6,7 @@
 package beecrowd;
 
 import java.util.Scanner;
+import java.lang.Math;
 
 /*
  *@version 1.0 
@@ -30,9 +31,9 @@ public class NotasEMoedas {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		double valor = scanner.nextDouble();
+		double n = scanner.nextDouble();
 		
-		double rest100 = valor % 100;
+		double rest100 = n % 100;
 		double rest50 = rest100 % 50;
 		double rest20 = rest50 % 20;
 		double rest10 = rest20 % 10;
@@ -46,7 +47,7 @@ public class NotasEMoedas {
 		double rest005 = rest010 % 0.05;
 		double rest001 = rest005 % 0.01;
 		
-		int n100 = (int) Math.floor(valor / 100);
+		int n100 = (int) Math.floor(n / 100);
 		int n50 = (int) Math.floor(rest100 / 50);
 		int n20 = (int) Math.floor(rest50 / 20);
 		int n10 = (int) Math.floor(rest20 / 10);
